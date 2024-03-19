@@ -50,6 +50,8 @@ struct ContentView: View {
 extension ContentView {
     var portraitMode: some View {
         VStack(alignment: .leading, spacing: 0) {
+            
+            
             ListView(
                 listEditModel: ListEditViewModel(colorViewModel: colorList),
                 description: $description,
